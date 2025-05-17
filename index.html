@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My_portfolio</title>
+    <link
+        href="https://fonts.google.com/share?selection.family=Baloo+Bhaijaan+2:wght@400..800|Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        body {
+            background-color: rgb(1, 5, 31);
+            color: rgb(249, 247, 250);
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(20, 17, 70);
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: aliceblue;
+        }
+
+        nav ul li a:hover {
+            text-decoration: none;
+            color: rgb(75, 126, 170);
+            font-size: 1.1rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 30px 0;
+        }
+
+        .leftSection {
+
+            font-size: 2.5rem;
+            margin: 50px 50px 50px 50px;
+        }
+
+        .leftSection img {
+            height: 12rem;
+            border-style: double;
+            border-radius: 0.5cm;
+
+
+        }
+
+        .rightSection img {
+            width: 30rem;
+            margin: 50px 0;
+
+        }
+
+        .purple {
+            color: blueviolet;
+        }
+
+        #element {
+            color: rgb(112, 73, 149);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin-bottom: 300px;
+            margin-left: 100px;
+        }
+
+        main hr {
+            border: 0;
+            background: lavender;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .text-gray {
+            color: gray;
+
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+            font-size: 10px;
+        }
+
+        .secondSection .vertical h1 {
+            margin: 23px 5px;
+
+        }
+
+        .secondSection .vertical .content {
+            width: 120px;
+            padding-bottom: 200px;
+
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+       
+        .footer {
+  background-color: #200655;
+  color: #ffffff;
+  padding: 40px 20px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-section {
+  flex: 1 1 200px;
+}
+
+.footer-section h2 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #ffb400;
+}
+
+.footer-section p,
+.footer-section a {
+  color: #ccc;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section li {
+  margin-bottom: 10px;
+}
+f
+.footer-section .social a img {
+  width: 24px;
+  height:24px;
+  margin-right: 10px;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 15px;
+  border-top: 1px solid #444;
+  font-size: 13px;
+  color: #aaa;
+  margin-top: 20px;
+}
+.btn{
+    margin-top: 20px;
+    background-color: rgb(147, 111, 12);
+    width:150px;
+    height:50px;
+    border-radius: 2cm;
+    color: aliceblue;
+    font-family: poppin;
+    font-size: medium;
+}
+
+           
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">My portfolio</div>
+            <div class="right">
+                <ul>
+
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact me</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                <img src="photo.jpg" alt="">
+                <div>Hello eveyonre, </div>
+                <div>my name is <span class="purple"> Jyotismrita</span>.</div> I am an aspiring
+                <div> <span id="element"></span></div>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+
+            </div>
+
+            <div class="rightSection">
+
+                <img src="web1.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">what I have done so far?</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <h1>Web Developer(2012-2017)</h1>
+                    <div class="content">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Mollitia voluptatibus ullam corrupti
+                        laborum minima modi in quasi temporibus,
+                        fugit aperiam libero blanditiis asperiores
+                        vitae repellat necessitatibus eum
+                        molestias soluta! Sit.</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <h1>Web Developer(2012-2017)</h1>
+                    <div class="content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptatibus
+                        ullam corrupti laborum minima modi in quasi temporibus, fugit aperiam libero blanditiis
+                        asperiores vitae repellat necessitatibus eum molestias soluta! Sit.</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <h1>Web Developer(2012-2017)</h1>
+                    <div class="content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptatibus
+                        ullam corrupti laborum minima modi in quasi temporibus, fugit aperiam libero blanditiis
+                        asperiores vitae repellat necessitatibus eum molestias soluta! Sit.</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <h1>Web Developer(2012-2017)</h1>
+                    <div class="content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptatibus
+                        ullam corrupti laborum minima modi in quasi temporibus, fugit aperiam libero blanditiis
+                        asperiores vitae repellat necessitatibus eum molestias soluta! Sit.</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <h1>Web Developer(2012-2017)</h1>
+                    <div class="content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptatibus
+                        ullam corrupti laborum minima modi in quasi temporibus, fugit aperiam libero blanditiis
+                        asperiores vitae repellat necessitatibus eum molestias soluta! Sit.</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <h1>Web Developer(2012-2017)</h1>
+                    <div class="content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptatibus
+                        ullam corrupti laborum minima modi in quasi temporibus, fugit aperiam libero blanditiis
+                        asperiores vitae repellat necessitatibus eum molestias soluta! Sit.</div>
+                </div>
+            </div>
+        </section>
+       
+    </main>
+   
+   
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'UI UX designer', 'Graphic designer'],
+            typeSpeed: 50,
+        });
+    </script>
+    <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-section about">
+            <h2>About </h2>
+            <p>We provide high-quality content and services to help you succeed in your journey.</p>
+          </div>
+      
+          <div class="footer-section links">
+            <h2>Quick Links</h2>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+      
+          <div class="footer-section contact">
+            <h2>Contact</h2>
+            <p>Email: basisthyajyotismrita@gmail.com</p>
+            <p>Phone: +91-9101555171</p>
+          </div>
+      
+          <div class="footer-section social">
+            <h2>Follow Us</h2>
+            <a href="#"><img src="xyz.png" alt="Facebook" /></a>
+            <a href="#"><img src="xyz.jpeg" alt="Twitter" /></a>
+            <a href="#"><img src="xyz.jpeg" alt="Instagram" /></a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          &copy; 2025 YourWebsite.com | All rights reserved.
+        </div>
+      </footer>
+      
+    
+
+</body>
+
+
+</html>
