@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jyotismrita Basisthya - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Progress Bar -->
+    <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+    </div>
+
+    <!-- Header/Navigation -->
+    <header>
+        <nav class="navbar" id="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <span class="logo-text">JB</span>
+                    <span class="logo-subtitle">Portfolio</span>
+                </div>
+                <div class="nav-menu" id="nav-menu">
+                    <ul class="nav-list">
+                        <li><a href="#home" class="nav-link active">Home</a></li>
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#skills" class="nav-link">Skills</a></li>
+                        <li><a href="#projects" class="nav-link">Projects</a></li>
+                        <li><a href="#experience" class="nav-link">Experience</a></li>
+                        <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                    <div class="hamburger" id="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text" data-aos="fade-right">
+                    <h3 class="greeting">Hello, I'm</h3>
+                    <h1 class="name">Jyotismrita <span class="highlight">Basisthya</span></h1>
+                    <h2 class="role">I'm a <span id="typed-text"></span></h2>
+                    <p class="hero-description">
+                        Passionate B.Tech student at NIT Silchar with expertise in AI/ML, Web Development, and Competitive Programming. 
+                        Building intelligent solutions that make a difference.
+                    </p>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <h3>750+</h3>
+                            <p>Problems Solved</p>
+                        </div>
+                        <div class="stat">
+                            <h3>1852</h3>
+                            <p>LeetCode Rating</p>
+                        </div>
+                        <div class="stat">
+                            <h3>8.24</h3>
+                            <p>CGPA</p>
+                        </div>
+                    </div>
+                    <div class="hero-buttons">
+                        <a href="resume.pdf" download class="btn btn-primary">
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
+                        <a href="https://github.com/payel1904" target="_blank" class="btn btn-secondary">
+                            <i class="fab fa-github"></i> Visit GitHub
+                        </a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/payel1904" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/jyotismrita-basisthya-70b440311/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://leetcode.com/u/Coder_465" target="_blank"><i class="fas fa-code"></i></a>
+                        <a href="mailto:basisthyajyotismrita@gmail.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image" data-aos="fade-left">
+                    <div class="image-container">
+                        <div class="image-border">
+                            <img src="profile.jpg" alt="Jyotismrita Basisthya">
+                        </div>
+                        <div class="floating-icons">
+                            <div class="float-icon icon1"><i class="fab fa-python"></i></div>
+                            <div class="float-icon icon2"><i class="fab fa-react"></i></div>
+                            <div class="float-icon icon3"><i class="fab fa-node-js"></i></div>
+                            <div class="float-icon icon4"><i class="fas fa-brain"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">About <span class="highlight">Me</span></h2>
+                <div class="title-line"></div>
+                <p class="section-subtitle">Get to know me better</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right">
+                    <img src="about_img.jpg" alt="About Jyotismrita">
+                    <div class="about-overlay">
+                        <div class="overlay-text">
+                            <h3>2+ Years</h3>
+                            <p>Coding Experience</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text" data-aos="fade-left">
+                    <h3>I'm a <span class="highlight">Computer Science Student</span> & <span class="highlight">Developer</span></h3>
+                    <p>
+                        Currently pursuing B.Tech in Computer Science and Engineering at NIT Silchar with a CGPA of 8.24. 
+                        I'm passionate about creating innovative solutions using AI/ML and web technologies.
+                    </p>
+                    <p>
+                        My journey in tech began with competitive programming, where I've solved over 750 problems and achieved 
+                        a LeetCode rating of 1852 (Knight). I specialize in developing intelligent systems that combine 
+                        cutting-edge AI with user-friendly interfaces.
+                    </p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <span class="info-label"><i class="fas fa-user"></i> Name:</span>
+                            <span class="info-value">Jyotismrita Basisthya</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label"><i class="fas fa-graduation-cap"></i> Degree:</span>
+                            <span class="info-value">B.Tech CSE (2023-2027)</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label"><i class="fas fa-envelope"></i> Email:</span>
+                            <span class="info-value">basisthyajyotismrita@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label"><i class="fas fa-phone"></i> Phone:</span>
+                            <span class="info-value">+91-9101555171</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label"><i class="fas fa-map-marker-alt"></i> Location:</span>
+                            <span class="info-value">Assam, India</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label"><i class="fas fa-briefcase"></i> Available:</span>
+                            <span class="info-value">For Internships</span>
+                        </div>
+                    </div>
+                    <div class="about-buttons">
+                        <a href="#contact" class="btn btn-primary">Hire Me</a>
+                        <a href="#projects" class="btn btn-outline">View Projects</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">My <span class="highlight">Skills</span></h2>
+                <div class="title-line"></div>
+                <p class="section-subtitle">Technologies I work with</p>
+            </div>
+            <div class="skills-container">
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-cuttlefish"></i></div>
+                            <div class="skill-info">
+                                <h4>C/C++</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-skill="90"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-python"></i></div>
+                            <div class="skill-info">
+                                <h4>Python</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-skill="85"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-js"></i></div>
+                            <div class="skill-info">
+                                <h4>JavaScript</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-skill="80"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-database"></i></div>
+                            <div class="skill-info">
+                                <h4>SQL</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-skill="75"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <h3><i class="fas fa-laptop-code"></i> Web Technologies</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                            <div class="skill-info">
+                                <h4>HTML/CSS</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-skill="90"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-react"></i></div>
+                            <div class="skill-info">
+                                <h4>React</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-skill="75"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-node-js"></i></div>
+                            <div class="skill-info">
+                                <h4>Node.js</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-skill="70"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-flask"></i></div>
+                            <div class="skill-info">
+                                <h4>Flask</h4>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-skill="70"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                    <h3><i class="fas fa-tools"></i> Tools & Technologies</h3>
+                    <div class="skill-grid">
+                        <div class="skill-card">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git/GitHub</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-aws"></i>
+                            <span>AWS</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-brain"></i>
+                            <span>AI/ML</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fab fa-figma"></i>
+                            <span>Figma</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-object-group"></i>
+                            <span>OOP</span>
+                        </div>
+                        <div class="skill-card">
+                            <i class="fas fa-server"></i>
+                            <span>Backend Dev</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">My <span class="highlight">Projects</span></h2>
+                <div class="title-line"></div>
+                <p class="section-subtitle">Some of my recent work</p>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1: AI Loan Eligibility System -->
+                <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="project-image">
+                        <img src="project1.jpg" alt="AI Loan Eligibility System">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/payel1904/AI-powered-loan-eligibility-advisory-system.git" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">AI/ML • Backend</span>
+                        <h3 class="project-title">AI-Powered Loan Eligibility Advisory System</h3>
+                        <p class="project-description">
+                            Intelligent system integrating AI, OCR, and chatbot technologies for automated loan eligibility assessment. 
+                            Achieved 99% prediction accuracy using XGBoost and 95% OCR accuracy, reducing manual processing time by 70%.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>XGBoost</span>
+                            <span>OCR</span>
+                            <span>Flask</span>
+                            <span>Chatbot</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat-item">
+                                <i class="fas fa-chart-line"></i>
+                                <span>99% Accuracy</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fas fa-clock"></i>
+                                <span>70% Time Saved</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: StudySmart -->
+                <div class="project-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="project-image">
+                        <img src="project2.jpg" alt="StudySmart Platform">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Sana0864sharma/smartstudy.git" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">EdTech • Full Stack</span>
+                        <h3 class="project-title">StudySmart - AI Powered Learning Platform</h3>
+                        <p class="project-description">
+                            Adaptive AI-driven e-learning platform with quiz generator, tutor chatbot, and academic risk predictor. 
+                            Tested by 200+ students, improving learning retention by 18%.
+                        </p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>AI/ML</span>
+                            <span>Figma</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat-item">
+                                <i class="fas fa-users"></i>
+                                <span>200+ Users</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span>18% Better Retention</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Portfolio Website -->
+                <div class="project-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="project-image">
+                        <img src="project3.jpg" alt="Portfolio Website">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/payel1904/MyPortfolio.git" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Web Design • Frontend</span>
+                        <h3 class="project-title">Personal Portfolio Website</h3>
+                        <p class="project-description">
+                            Responsive personal portfolio showcasing projects and skills. Achieved 1,500+ unique visitors 
+                            in the first 3 months with optimized performance and modern design.
+                        </p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Responsive</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat-item">
+                                <i class="fas fa-eye"></i>
+                                <span>1,500+ Views</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fas fa-mobile-alt"></i>
+                                <span>100% Responsive</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-cta" data-aos="fade-up">
+                <a href="https://github.com/Jyotismrita-Basisthya" target="_blank" class="btn btn-primary">
+                    View All Projects <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Work <span class="highlight">Experience</span></h2>
+                <div class="title-line"></div>
+                <p class="section-subtitle">My professional journey</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-date">2025 - Present</div>
+                    <div class="timeline-content">
+                        <h3>AI/ML Intern</h3>
+                        <h4>Infosys Springboard (Virtual)</h4>
+                        <p>
+                            Currently working on developing intelligent systems integrating AI, OCR, and chatbot technologies. 
+                            Focus on creating automated solutions for complex business processes with high accuracy and efficiency.
+                        </p>
+                        <ul class="timeline-list">
+                            <li>Developed AI-Powered Loan Eligibility Advisory System</li>
+                            <li>Achieved 99% prediction accuracy using XGBoost</li>
+                            <li>Implemented OCR with 95% accuracy rate</li>
+                            <li>Reduced manual processing time by 70%</li>
+                        </ul>
+                        <div class="timeline-tech">
+                            <span>Python</span>
+                            <span>Machine Learning</span>
+                            <span>OCR</span>
+                            <span>XGBoost</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-date">2024 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Core Member - Design Team</h3>
+                        <h4>Computer Science Society, NIT Silchar</h4>
+                        <p>
+                            Leading design initiatives and social media strategies for the Computer Science Society. 
+                            Successfully increased event participation through targeted visual campaigns.
+                        </p>
+                        <ul class="timeline-list">
+                            <li>Formulated multi-platform social media strategy</li>
+                            <li>Boosted event attendance by 70%</li>
+                            <li>Created targeted visual campaigns on Instagram and Facebook</li>
+                            <li>Managed design team for various technical events</li>
+                        </ul>
+                        <div class="timeline-tech">
+                            <span>Design</span>
+                            <span>Social Media</span>
+                            <span>Team Management</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Achievements & <span class="highlight">Certifications</span></h2>
+                <div class="title-line"></div>
+                <p class="section-subtitle">Recognition and milestones</p>
+            </div>
+            <div class="achievements-grid">
+                <div class="achievement-card" data-aos="flip-left" data-aos-delay="100">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>LeetCode Knight</h3>
+                    <p>Achieved rating of 1852 through consistent participation in timed contests</p>
+                    <span class="achievement-date">Ongoing</span>
+                </div>
+
+                <div class="achievement-card" data-aos="flip-left" data-aos-delay="200">
+                    <div class="achievement-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>750+ Problems Solved</h3>
+                    <p>Solved algorithmic problems across multiple competitive programming platforms</p>
+                    <span class="achievement-date">Ongoing</span>
+                </div>
+
+                <div class="achievement-card" data-aos="flip-left" data-aos-delay="300">
+                    <div class="achievement-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>#IamFutureReady Program</h3>
+                    <p>Completed workshop on leadership, networking, and financial literacy at Infosys Hyderabad</p>
+                    <span class="achievement-date">Feb 2025</span>
+                </div>
+
+                <div class="achievement-card" data-aos="flip-left" data-aos-delay="400">
+                    <div class="achievement-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>HackerRank SQL Certification</h3>
+                    <p>Validated proficiency in SQL queries, aggregations, and joins</p>
+                    <span class="achievement-date">Aug 2025</span>
+                </div>
+
+                <div class="achievement-card" data-aos="flip-left" data-aos-delay="500">
+                    <div class="achievement-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <h3>HackerRank Python Certification</h3>
+                    <p>Demonstrated fundamental programming proficiency in Python</p>
+                    <span class="achievement-date">Aug 2025</span>
+                </div>
+
+                <div class="achievement-card" data-aos="flip-left" data-aos-delay="600">
+                    <div class="achievement-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Academic Excellence</h3>
+                    <p>Maintaining CGPA of 8.24 at NIT Silchar</p>
+                    <span class="achievement-date">2023 - Present</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+                <div class="title-line"></div>
+                <p class="section-subtitle">Let's work together</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>Let's Connect</h3>
+                    <p>
+                        I'm always interested in hearing about new opportunities, exciting projects, and collaborations. 
+                        Feel free to reach out if you'd like to work together!
+                    </p>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Location</h4>
+                                <p>Assam, India</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <p>basisthyajyotismrita@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Phone</h4>
+                                <p>+91-9101555171</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <a href="https://github.com/payel1904" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/jyotismrita-basisthya-70b440311/" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://leetcode.com/u/Coder_465" target="_blank" class="social-link">
+                            <i class="fas fa-code"></i>
+                        </a>
+                        <a href="mailto:basisthyajyotismrita@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form" data-aos="fade-left">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder="Subject" required>
+                            <i class="fas fa-tag"></i>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                            <i class="fas fa-comment"></i>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">
+                            Send Message <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Jyotismrita Basisthya. All rights reserved.</p>
+                    <p>Designed & Developed with <i class="fas fa-heart"></i> by Jyotismrita</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
